@@ -13,11 +13,11 @@ const Projects = () => {
                 <div className="flex flex-col pl-4 justify-between">
                     <p className="font-bold text-lg">Pixela</p>
                     <div className="w-ful h-[1px] bg-white opacity-50"/>
-                    <p className="text- text-pretty">Editor para crear pixel art, arte 2D que se dibuja digitalmente píxel a píxel, con la posibilidad de elegir el tamaño de lienzo y de poder descargar los dibujos, desarrollado con SCSS, Javascript y React.</p>
+                    <p className="text-sm text-pretty truncate">Editor para crear pixel art, arte 2D que se dibuja digitalmente píxel a píxel, con la posibilidad de elegir el tamaño de lienzo y de poder descargar los dibujos.</p>
                     <div className="flex gap-4">
-                        <div className="bg-yellow-500 py-[2px] px-[6px] rounded-sm font-semibold">JavaScript</div>
-                        <div className="bg-pink-600 py-[2px] px-[6px] rounded-sm font-semibold">SCSS</div>
-                        <div className="bg-cyan-700 py-[2px] px-[6px] rounded-sm font-semibold">React</div>
+                        <div className="bg-yellow-500 py-[2px] px-[6px] text-sm rounded-sm">JavaScript</div>
+                        <div className="bg-pink-600 py-[2px] px-[6px] text-sm rounded-sm">SCSS</div>
+                        <div className="bg-cyan-700 py-[2px] px-[6px] text-sm rounded-sm">React</div>
                     </div>
                     <div className="flex gap-4">
                         <a href="https://pixela-sigma.vercel.app/" target="_blank" className="cursor-pointer">
@@ -42,11 +42,11 @@ const Projects = () => {
                 <div className="flex flex-col pl-4 justify-between">
                     <p className="font-bold text-lg">Kolors</p>
                     <div className="w-ful h-[1px] bg-white opacity-50"/>
-                    <p className="text-pretty">Generador de paleta de colores, mediante una función que genera un valor hexadecimal, bloquea el color para no perderlo o descarga la paleta de colores, desarrollado con Tailwind, JavaScript y React.</p>
+                    <p className="text-sm text-pretty truncate">Generador de paleta de colores, mediante una función que genera un valor hexadecimal, bloquea el color para no perderlo o descarga la paleta de colores.</p>
                     <div className="flex gap-4">
-                        <div className="bg-yellow-500 py-[2px] px-[6px] rounded-sm font-semibold">JavaScript</div>
-                        <div className="bg-cyan-500 py-[2px] px-[6px] rounded-sm font-semibold">Tailwind</div>
-                        <div className="bg-cyan-700 py-[2px] px-[6px] rounded-sm font-semibold">React</div>
+                        <div className="bg-yellow-500 py-[2px] px-[6px] text-sm rounded-sm ">JavaScript</div>
+                        <div className="bg-cyan-500 py-[2px] px-[6px] text-sm rounded-sm ">Tailwind</div>
+                        <div className="bg-cyan-700 py-[2px] px-[6px] text-sm rounded-sm ">React</div>
                     </div>
                     <div className="flex gap-4">
                         <a href="https://color-palette-generator-taupe.vercel.app/" target="_blank" className="cursor-pointer">
@@ -71,11 +71,11 @@ const Projects = () => {
                 <div className="flex flex-col pl-4 justify-between">
                     <p className="font-bold text-lg">Metroidvania Pixel Art</p>
                     <div className="w-ful h-[1px] bg-white opacity-50"/>
-                    <p className="text-base text-pretty">Videojuego de acción-aventura basado en un concepto de plataformas mejor conocido como metroidvania, desarrollado con la libreria Kaboom.js y Tiled para la creacion de los escenarios.</p>
+                    <p className="text-sm text-pretty truncate text-clip">Videojuego de acción-aventura basado en un concepto de plataformas mejor conocido como metroidvania.</p>
                     <div className="flex gap-4">
-                        <div className="bg-yellow-500 py-[2px] px-[6px] rounded-sm font-semibold">JavaScript</div>
-                        <div className="bg-red-500 py-[2px] px-[6px] rounded-sm font-semibold">Kaboomjs</div>
-                        <div className="bg-cyan-700 py-[2px] px-[6px] rounded-sm font-semibold">React</div>
+                        <div className="bg-yellow-500 py-[2px] px-[6px] text-sm rounded-sm">JavaScript</div>
+                        <div className="bg-red-500 py-[2px] px-[6px] text-sm rounded-sm">Kaboomjs</div>
+                        <div className="bg-cyan-700 py-[2px] px-[6px] text-sm rounded-sm">React</div>
                     </div>
                     <div className="flex gap-4">
                         <a href="https://metroidvania-kaboom.vercel.app/" target="_blank" className="cursor-pointer">

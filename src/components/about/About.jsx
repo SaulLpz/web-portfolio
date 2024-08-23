@@ -5,7 +5,7 @@ const About = () => {
     <div className="col-span-12 md:col-span-6 md:row-span-3 bg-transparent rounded-3xl flex justify-center items-center backdrop-filter bg-opacity-20">
         <div className="h-full w-full grid grid-cols-6 grid-rows-4 gap-4">
             <div className="col-span-3 row-span-2 bg-indigo-200 rounded-3xl flex justify-center items-center backdrop-filter bg-opacity-20 logo">
-                <p className="w-full h-full flex justify-center items-center -skew-y-12 text-9xl 2xl:text-[200px] font-bold pr-3"><span>ゴゴ</span></p>
+                <p className="w-full h-full flex justify-center items-center -skew-y-12 text-8xl 2xl:text-[150px] font-bold pr-3"><span>ゴゴ</span></p>
             </div>
             <div className="col-span-3 row-span-2 bg-transparent rounded-3xl flex justify-center items-center backdrop-filter bg-opacity-20">
                 <div className="h-full w-full grid grid-cols-6 grid-rows-4 gap-4">
@@ -42,9 +42,9 @@ const About = () => {
                 </div>
             </div>
             <div className="col-span-6 row-span-2 bg-indigo-200 rounded-3xl flex justify-center items-center backdrop-filter bg-opacity-20">
-                <div className="flex flex-col gap-4 p-8 text-pretty text-xl">
-                    <p className="text-3xl font-bold">Acerca de mi</p>
-                    <p className="leading-8">
+                <div className="flex flex-col gap-4 p-8 text-pretty">
+                    <p className="text-3xl font-bold">Sobre mi</p>
+                    <p className="">
                     Desarrollador con una pasión innata por la tecnología y el desarrollo de software. Poseo una sólida
                     base en programación y un firme compromiso con el aprendizaje continuo, actualmente me encuentro
                     profundizando mi conocimiento en la parte del backend, así como el concepto general para tener una mayor 
